@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load models
-log_model = pickle.load(open("loan_model.pkl", "rb"))
+log_model = pickle.load(open("log_model.pkl", "rb"))
 knn_model = pickle.load(open("knn_model.pkl", "rb"))
 nb_model = pickle.load(open("nb_model.pkl", "rb"))
 scaler = pickle.load(open("scaler.pkl", "rb"))
