@@ -30,4 +30,4 @@ loan_purpose = st.text_input("Loan Purpose")
 
 if st.button("Predict Loan Approval"):
     st.success(f"Prediction using {algo}")
-    st.info("Model integration next step") ye codekaha pr likhna hain
+    st.info("Model integration next step")
